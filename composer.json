@@ -1,0 +1,35 @@
+{
+    "name": "gemarkode/pino-library",
+    "description": "none",
+    "keywords": ["library", "pino-library","php-library"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Septiyani Putri",
+            "role": "Author, Developer",
+            "homepage": "https://github.com/septiynp"
+        },
+        {
+            "name": "Rizky Tegar",
+            "role": "Author, Developer",
+            "homepage": "https://github.com/rizkytegar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pino\\Library\\": "src/"
+        },
+        "files": [
+            "src/Pino.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "config": {
+        "optimize-autoloader": false,
+        "sort-packages": true
+    }
+}
