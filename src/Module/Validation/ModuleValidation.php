@@ -1,6 +1,8 @@
 <?php
 
-namespace pino\Library\Module;
+namespace pino\Library\Module\Validation;
+
+use pino\Library\Module\Return\ReturnPatten;
 
 /* 
 |-----------------------------------------------------------------------|
@@ -17,20 +19,30 @@ class ModuleRegex{
 
     }
     public static function GetString($GetRequestData){
+
         if($GetRequestData){
+
             $GetRequestData = str_replace(' ', '-', $GetRequestData);
             $GetRequestData = preg_replace('/[^A-Za-z0-9-]/', '', str_replace(' ',' ',$GetRequestData));
             return str_replace('-', ' ', $GetRequestData);
+
         }else{
-            return NULL;
+
+            return ReturnPattern::Invalid('Pino String');
+
         }
     }
     
     public static function GetInteger($GetRequestData){
+
         if($GetRequestData){
+            
             return preg_replace('/[^0-9]/', '', $GetRequestData);
+        
         }else{
-            return NULL;
+
+            return ReturnPattern::Invalid('Pino Integer');
+
         }
     }
 }

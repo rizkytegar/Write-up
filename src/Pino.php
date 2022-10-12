@@ -2,9 +2,9 @@
 
 namespace pino\Library;
 
-use pino\Library\Module\ModuleRegex;
-use pino\Library\Module\DatabaseConnection;
-use pino\Library\Module\QueryPatttern;
+use pino\Library\Module\Validation\ModuleValidation;
+use pino\Library\Module\Database\ModuleDatabase;
+use pino\Library\Module\Query\ModuleQuery;
 
 /* 
 |-----------------------------------------------------------------------|
@@ -22,13 +22,13 @@ class Pino{
 */
     public static function string($GetRequestData) {
 
-        return ModuleRegex::GetString($GetRequestData);
+        return ModuleValidation::GetString($GetRequestData);
         
     }
 
     public static function integer($GetRequestData) {
 
-        return ModuleRegex::GetInteger($GetRequestData);
+        return ModuleValidation::GetInteger($GetRequestData);
         
     }
 
@@ -40,13 +40,7 @@ class Pino{
 
     public static function mysql($GetConfig) {
 
-        return DatabaseConnection::MySQL($GetConfig);
-        
-    }
-
-    public static function pgsql($GetConfig) {
-
-        return DatabaseConnection::PostgreSQL($GetConfig);
+        return ModuleDatabase::MySQL($GetConfig);
         
     }
 
@@ -58,22 +52,22 @@ class Pino{
 
     public static function select($GetQuery) {
 
-        return QueryPatttern::Select($GetQuery);
+        return ModuleQuery::Select($GetQuery);
         
     }
     public static function insert($GetQuery) {
 
-        return QueryPatttern::Insert($GetQuery);
+        return ModuleQuery::Insert($GetQuery);
         
     }
     public static function update($GetQuery) {
 
-        return QueryPatttern::Update($GetQuery);
+        return ModuleQuery::Update($GetQuery);
         
     }
     public static function delete($GetQuery) {
 
-        return QueryPatttern::Delete($GetQuery);
+        return ModuleQuery::Delete($GetQuery);
         
     }
 }
