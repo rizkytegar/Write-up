@@ -1,6 +1,8 @@
 <?php
 
-namespace pino\Library\Module;
+namespace pino\Library\Module\Csrf;
+
+use pino\Library\Module\Return\ReturnPatten;
 
 /* 
 |-----------------------------------------------------------------------|
@@ -10,18 +12,13 @@ namespace pino\Library\Module;
 |-----------------------------------------------------------------------|
 */
 
-class DatabaseConnection{
+class ModuleCsrf{
 
     function __construct()
     {
 
     }
-    public static function MySQL($GetConfig){
-        // coming soon
-        return false;
-    }
-    public static function PostgreSQL($GetConfig){
-        // coming soon
-        return false;
-    }
+    
+    // coming soon
+
 }

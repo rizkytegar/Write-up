@@ -1,6 +1,8 @@
 <?php
 
-namespace pino\Library\Module;
+namespace pino\Library\Module\Query;
+
+use pino\Library\Module\Return\ReturnPatten;
 
 /* 
 |-----------------------------------------------------------------------|
@@ -10,7 +12,7 @@ namespace pino\Library\Module;
 |-----------------------------------------------------------------------|
 */
 
-class QueryPatttern{
+class ModuleQuery{
 
     function __construct()
     {
@@ -19,17 +21,21 @@ class QueryPatttern{
     public static function Select($GetQuery){
         // coming soon
         return false;
+
     }
     public static function Update($GetQuery){
         // coming soon
         return false;
+
     }
     public static function Delete($GetQuery){
         // coming soon
         return false;
+
     }
     public static function Insert($GetQuery){
         // coming soon
         return false;
+        
     }
 }
