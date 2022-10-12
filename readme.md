@@ -38,15 +38,42 @@ See Usage examples in the test folder folder
 
 ### Pino Validation
 
-Example Integer
-```
-/Pino-library/test/ExampleInteger.php
+#### Integer
+
+Example Input Data, You can change the value of ```$data``` by request POST or GET
+
+```php
+$data = '!@#$%^&*()_+{}|":<>?,./;\][=-just test integer!#%^&*()123';
 ```
 
-Example String
+Example output, Data will be converted into a integer.                          
+
+```php
+return Pino::integer($data);
+
+// Output from $data  123
+
 ```
-/Pino-library/test/ExampleString.php
+
+See Integer Example in ```/test/ExampleInteger.php```
+
+#### String
+
+Example Input Data, You can change the value of $data by request POST or GET.   
+
+```php
+$data = '!@#$%^&*()_+{}|":<>?,./;\][=-just test string!#%^&*()123';
 ```
+
+Example output, Data will be converted into a string.                           
+
+
+```php
+return Pino::string($data);
+// Output from $data : just test string123
+```
+See String Example in ```/test/ExampleString.php```
+
 ### Pino Database Connection
 
 Coming soon
@@ -56,6 +83,10 @@ Coming soon
 Coming Soon
 
 ### Cross Site Request Forgery (CSRF)
+
+Coming Soon
+
+### PHP Session Security
 
 Coming Soon
 
