@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" />
 <img src="https://img.shields.io/packagist/dt/gemarkode/Pino-library" alt="Total Downloads">
 <img src="https://img.shields.io/packagist/v/gemarkode/Pino-library" alt="Latest Stable Version">
-<img src="https://img.shields.io/github/repo-size/gemarkode/Codebase" alt="Repo Size" />
+<img src="https://img.shields.io/github/repo-size/gemarkode/Pino-library" alt="Repo Size" />
 
 </p>
 </div>
