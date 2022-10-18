@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">👋 Pino Library</h3>
-<p>Pino Library is a Security Class Library for PHP Projects.</p>
+<h1 align="center">👋 Pino Library | Archives</h3>
+<p>this repository will be developed directly by @rizkytegar.</p>
 <br />
 <p align="center">
 <img src="https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg" alt="Open Source Love"/>
