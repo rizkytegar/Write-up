@@ -1,7 +1,7 @@
 {
-    "name": "rizkytegar/svaphp",
+    "name": "rizkytegar/svaphp-validate",
     "description": "none",
-    "keywords": ["library", "sva-library","php-library"],
+    "keywords": ["library", "sva-library","php-validate"],
     "type": "library",
     "license": "MIT",
     "authors": [
