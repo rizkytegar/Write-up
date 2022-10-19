@@ -1,7 +1,7 @@
 {
-    "name": "gemarkode/pino-library",
+    "name": "rizkytegar/svaphp",
     "description": "none",
-    "keywords": ["library", "pino-library","php-library"],
+    "keywords": ["library", "sva-library","php-library"],
     "type": "library",
     "license": "MIT",
     "authors": [
