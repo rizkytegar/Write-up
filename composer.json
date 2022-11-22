@@ -1,15 +1,10 @@
 {
-    "name": "rizkytegar/svaphp-validate",
-    "description": "none",
-    "keywords": ["library", "sva-library","php-validate"],
+    "name": "rizkytegar/sapu-lib",
+    "description": "PHP Validation for protection against Injection Attacks",
+    "keywords": ["php-library", "sapu-library","sapu-lib"],
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Septiyani Putri",
-            "role": "Author, Developer",
-            "homepage": "https://github.com/septiynp"
-        },
+    "authors": [ 
         {
             "name": "Rizky Tegar Pratama",
             "role": "Author, Developer",
@@ -19,10 +14,10 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "pino\\Library\\": "src/"
+            "sapu\\Library\\": "src/"
         },
         "files": [
-            "src/Pino.php"
+            "src/Sapu.php"
         ]
     },
     "require": {
