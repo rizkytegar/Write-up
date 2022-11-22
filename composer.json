@@ -11,7 +11,7 @@
             "homepage": "https://github.com/rizkytegar"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "sapu\\Library\\": "src/"
