@@ -2,7 +2,7 @@
  <img width="60%" src="https://raw.githubusercontent.com/rizkytegar/Write-up/main/img/bg.png">
 </div>
 
-# Introduction
+# 🎉 Introduction
 
 Kelinci Nekat is a team of hackers (white hat hacker) focused on participating in Cyber Security and CTF events.
 
@@ -14,7 +14,9 @@ Kelinci Nekat is a team of hackers (white hat hacker) focused on participating i
 
 - Cyber Jawara - National Hacking Competition 2022 (64th place from 339 team)
 
-# Write Up
+<br>
+
+# 🎉 Write Up
 
 ### Miscellaneous
 
