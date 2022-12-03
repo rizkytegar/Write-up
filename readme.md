@@ -7,4 +7,10 @@
 
 ## List Of Write Up
 
+### Miscellaneous
+
+coming soon
+
+## Reverse engineering
+
 coming soon
