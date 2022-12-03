@@ -18,8 +18,9 @@ Kelinci Nekat is a team of hackers (white hat hacker) focused on participating i
 
 ### Miscellaneous
 
-coming soon
+- Your ImageNation (Cyber Jawara 2022)
 
 ### Reverse engineering
 
-coming soon
+- BabyRev (Cyber Jawara 2022)
+- Sekr3T Message (Cyber Jawara 2022)
